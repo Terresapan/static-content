@@ -213,7 +213,11 @@ Do not generate new content or examples.  Focus on extracting and presenting the
 
 Your report should include:
 
-* **Introduction:** Briefly introduce the purpose of the report (to summarize the provided content) and explain what the Flagship, Seasonal, and Evergreen content are.
+* **Introduction:** Briefly introduce the purpose of the report (to summarize the provided content) and 
+  explain definitions of the Flagship, Seasonal, and Evergreen content.
+  *Flagship Content: Positions the Persona as a trusted authority by showcasing deep insights and expertise aligned with the brand’s core focus and audience needs.
+  *Seasonal Content: Taps into trending holidays and seasonal events, resonating with the target audience while reinforcing the brand’s core values.
+  *Evergreen Content: Provides timeless value, remaining relevant and impactful year after year, consistently aligned with the brand's foundational themes and audience interests.
 * **Flagship Content Summary:**  Concisely summarize the key points of the flagship content.
 * **Seasonal Content Summary:** Concisely summarize the key points of the seasonal content.
 * **Evergreen Content Summary:** Concisely summarize the key points of the evergreen content.
