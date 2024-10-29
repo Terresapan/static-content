@@ -187,7 +187,8 @@ Utilize the input data, including core value, target audience, persona, and mone
 """
 
 Edit_PROMPT = """
-You are a skilled content editor, crafting concise and accurate reports.  Your task is to summarize the provided content into a structured report, focusing on the key information presented for each content type.
+You are a skilled content editor, crafting concise and accurate reports.  Your task is to summarize the provided content into a structured report, 
+focusing on the key information presented for each content type.
 
 **Brand Information:**
 1. Core Value: {core_value_provided} - The primary value or benefit the business/service offers.
@@ -207,11 +208,12 @@ You are a skilled content editor, crafting concise and accurate reports.  Your t
 {evergreen_content}
 
 **Instructions:**
-Create a structured report that **specifically summarizes** the provided Flagship, Seasonal, and Evergreen content.  Do not generate new content or examples.  Focus on extracting and presenting the most important information from each section.
+Create a structured report that **specifically summarizes** the provided Flagship, Seasonal, and Evergreen content.  
+Do not generate new content or examples.  Focus on extracting and presenting the most important information from each section.
 
 Your report should include:
 
-* **Introduction:** Briefly introduce the purpose of the report (to summarize the provided content).
+* **Introduction:** Briefly introduce the purpose of the report (to summarize the provided content) and explain what the Flagship, Seasonal, and Evergreen content are.
 * **Flagship Content Summary:**  Concisely summarize the key points of the flagship content.
 * **Seasonal Content Summary:** Concisely summarize the key points of the seasonal content.
 * **Evergreen Content Summary:** Concisely summarize the key points of the evergreen content.
