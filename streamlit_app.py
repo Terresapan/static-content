@@ -148,7 +148,7 @@ def create_initial_state(input_data: Dict[str, str]) -> AppState:
 def generate_suggestions(api_key: str, input_data: Dict[str, str]) -> List[Message] | None:
     """Generate suggestions using the ChatGroq model"""
     try:
-        chat_groq = ChatGroq(api_key=api_key)
+        chat_groq = ChatGroq(api_key=api_key, model="llama-3.2-90b-text-preview", temperature=0.2)
         
         # Create a placeholder for streaming output
         output_container = st.empty()

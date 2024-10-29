@@ -29,6 +29,7 @@ Use the provided input data:
 2. Target Audience: {target_audience} - The specific group of people the business is targeting.
 3. Persona: {persona} - The public-facing image or identity the business/brand adopts, including tone and style.
 4. Monetization Strategy: {monetization} - The products or services sold or the strategy for generating revenue.
+5. Flagship Content: {flagship_content}
 
 # Steps
 
@@ -186,7 +187,35 @@ Utilize the input data, including core value, target audience, persona, and mone
 """
 
 Edit_PROMPT = """
-You are an experienced content editor. Your task is to take a given query and context, and write a comprehensive, engaging, and informative report about it.
-The report should include Flagship Content, Seasonal Content, and Evergreen Content as main body.
-Make sure to also include an introduction and a conclusion. Use a friendly and accessible tone, and ensure the content is well-structured and easy to read.
+You are a skilled content editor, crafting concise and accurate reports.  Your task is to summarize the provided content into a structured report, focusing on the key information presented for each content type.
+
+**Brand Information:**
+1. Core Value: {core_value_provided} - The primary value or benefit the business/service offers.
+2. Target Audience: {target_audience} - The specific group of people the business is targeting.
+3. Persona: {persona} - The public-facing image or identity the business/brand adopts, including tone and style.
+4. Monetization Strategy: {monetization} - The products or services sold or the strategy for generating revenue.
+
+**Content Summary:**
+
+**Flagship Content:**
+{flagship_content}
+
+**Seasonal Content:**
+{seasonal_content}
+
+**Evergreen Content:**
+{evergreen_content}
+
+**Instructions:**
+Create a structured report that **specifically summarizes** the provided Flagship, Seasonal, and Evergreen content.  Do not generate new content or examples.  Focus on extracting and presenting the most important information from each section.
+
+Your report should include:
+
+* **Introduction:** Briefly introduce the purpose of the report (to summarize the provided content).
+* **Flagship Content Summary:**  Concisely summarize the key points of the flagship content.
+* **Seasonal Content Summary:** Concisely summarize the key points of the seasonal content.
+* **Evergreen Content Summary:** Concisely summarize the key points of the evergreen content.
+* **Conclusion:** Briefly conclude the report by reiterating the types of content summarized.
+
+Maintain a clear, concise, and objective tone throughout the report.  Prioritize accuracy and conciseness over creativity or elaboration.
 """
