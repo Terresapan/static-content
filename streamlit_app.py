@@ -1,6 +1,5 @@
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain_mistralai import ChatMistralAI
 from main import create_graph
 from langchain.callbacks.base import BaseCallbackHandler
 from typing import TypedDict, List, Dict, Any
@@ -150,8 +149,7 @@ def generate_suggestions(api_key: str, input_data: Dict[str, str]) -> List[Messa
     """Generate suggestions using the ChatGroq model"""
     try:
         chat_groq = ChatGroq(api_key=api_key, model="llama-3.2-90b-text-preview", temperature=0.2)
-        # chat_groq = ChatMistralAI(api_key=api_key, model="mistral-large-latest", temperature=0.2)
-        
+           
         # Create a placeholder for streaming output
         output_container = st.empty()
         
