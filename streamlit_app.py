@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_groq import ChatGroq
 from main import create_graph
-from langchain.callbacks.base import BaseCallbackHandler
+from langchain_core.callbacks import BaseCallbackHandler
 from typing import TypedDict, List, Dict, Any
 import os
 
