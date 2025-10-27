@@ -66,7 +66,7 @@ def create_sidebar():
         st.sidebar.write(instruction)
     
     try:
-        st.sidebar.image("assets/logo01.jpg", use_container_width=True)
+        st.sidebar.image("assets/logo01.jpg", width='stretch')
     except FileNotFoundError:
         st.sidebar.warning("Logo file not found. Please check the assets directory.")
 

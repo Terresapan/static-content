@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Volumes/Samsung Apple USB/Learning_code/AIAgent/Social Media/static-content/.venv"
+VIRTUAL_ENV="/Users/terresapan/Documents/static-content/.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

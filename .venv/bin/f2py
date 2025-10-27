@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/terresapan/Learning_code/AIAgent/Social Media/static-content/.venv/bin/python" "$0" "$@"
-' '''
+#!/Users/terresapan/Documents/static-content/.venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
